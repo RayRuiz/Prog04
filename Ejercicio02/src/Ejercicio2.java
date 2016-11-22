@@ -1,20 +1,18 @@
 import java.util.Scanner;
-public class Ejercicio1 {
+
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
 		Scanner teclado=new Scanner (System.in);
-		String frases;
+		String frase;
+		int numeroMayus=0,numeroMinus=0;
 		
 		System.out.println("Ingrese una frase");
-		frases=teclado.nextLine();
-		for (int i=0;i<frases.length();i++){
-			System.out.println(frases.substring(0,i+1));
-		  
-		}
-		
-		
+		frase=teclado.nextLine();
+		for (int i=0; i<frase.length();i++){
 		
 			
+			}
 		}
 		
 		
